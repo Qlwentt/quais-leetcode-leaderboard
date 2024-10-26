@@ -112,15 +112,6 @@ def read_usernames_from_file(filename):
         return [line.strip() for line in file.readlines()]
 
 
-def write_elos_to_json(filename, user_elos):
-    data = []
-    for user, elo, prev_elo in user_elos:
-        data.append({"username": user, "elo": elo, "prev_elo": prev_elo})
-
-    with open(filename, "w") as file:
-        json.dump(data, file, indent=4)
-
-
 def daily_update(existing_users):
     for user in existing_users:
         username = user["username"]
