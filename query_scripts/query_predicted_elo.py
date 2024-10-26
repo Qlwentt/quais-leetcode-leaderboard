@@ -25,7 +25,7 @@ def load_existing_elos(filename):
         return json.load(file)
 
 def update_elos_with_new_ratings(existing_elos, user_ratings):
-    elo_dict = {user['name']: user for user in existing_elos}
+    elo_dict = {user['username']: user for user in existing_elos}
     for username, new_rating in user_ratings:
         if username in elo_dict:
             elo_dict[username]['prev_elo'] = elo_dict[username]['elo']
@@ -38,7 +38,7 @@ def write_elos_to_json(filename, updated_elos):
 
 def main(contest_name):
     existing_elos = load_existing_elos('../leetcode-elo/public/users_by_elo.json')
-    usernames = [user['name'] for user in existing_elos]
+    usernames = [user['username'] for user in existing_elos]
     user_ratings = []
     for username in usernames:
         print("Getting delta rating of...", username)
