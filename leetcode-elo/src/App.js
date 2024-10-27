@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     document.title = "Leaderboard";
     const fetchProblems = async () => {
-      const response = await fetch("/ratings.json");
+      const response = await fetch(`${process.env.PUBLIC_URL}/ratings.json`);
       const data = await response.json();
       setProblems(data);
       setOriginalProblems(data);

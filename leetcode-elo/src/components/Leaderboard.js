@@ -30,7 +30,7 @@ const CustomCard = styled(Box)(({ theme }) => ({
 const ImageContainer = styled(Paper)(({ theme }) => ({
   height: 200,
   width: "100%",
-  backgroundImage: "url(purple_squirrel.png)",
+  backgroundImage: `url(${process.env.PUBLIC_URL}/purple_squirrel.png)`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   marginBottom: theme.spacing(2),
@@ -44,7 +44,9 @@ function Leaderboard() {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await fetch("/users_by_elo.json");
+        const response = await fetch(
+          `${process.env.PUBLIC_URL}/users_by_elo.json`
+        );
         const data = await response.json();
         data.sort((a, b) => b.current_problem_delta - a.current_problem_delta);
         setLeaderboard(data);
