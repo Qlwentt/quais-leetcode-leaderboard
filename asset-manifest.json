@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quais-leetcode-leaderboard/static/css/main.e6c13ad2.css",
-    "main.js": "/quais-leetcode-leaderboard/static/js/main.5fabe120.js",
+    "main.js": "/quais-leetcode-leaderboard/static/js/main.d31a6785.js",
     "static/js/453.ca915a65.chunk.js": "/quais-leetcode-leaderboard/static/js/453.ca915a65.chunk.js",
     "index.html": "/quais-leetcode-leaderboard/index.html",
     "main.e6c13ad2.css.map": "/quais-leetcode-leaderboard/static/css/main.e6c13ad2.css.map",
-    "main.5fabe120.js.map": "/quais-leetcode-leaderboard/static/js/main.5fabe120.js.map",
+    "main.d31a6785.js.map": "/quais-leetcode-leaderboard/static/js/main.d31a6785.js.map",
     "453.ca915a65.chunk.js.map": "/quais-leetcode-leaderboard/static/js/453.ca915a65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.5fabe120.js"
+    "static/js/main.d31a6785.js"
   ]
 }
