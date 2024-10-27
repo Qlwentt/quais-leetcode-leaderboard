@@ -1,0 +1,20 @@
+format for json file:
+
+[
+    {
+        "name": "Raymond"
+        "username": "TheRealRaymondJones",
+        "elo": 1866,
+        "prev_elo": 1866,
+        "prev_problem_count": 1137,
+        "current_problem_delta": 36,
+        "problems_each_week": [
+            922,
+            922,
+            1011,
+            1136,
+            1137
+        ],
+        "current_problem_count": 1173
+    }
+]
