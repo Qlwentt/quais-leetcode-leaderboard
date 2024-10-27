@@ -15,7 +15,7 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import Leaderboard from "./components/Leaderboard";
 import LeetcodeCoinCalculator from "./components/LeetcodeCoinCalculator";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   const [inputTerm, setInputTerm] = useState("");
