@@ -27,7 +27,6 @@ def add_users_to_json(usernames_file, json_file):
     all_names_by_username = read_usernames_from_file(usernames_file)
     existing_users = load_existing_users(json_file)
     usernames = set([user['username'] for user in existing_users])
-    print(existing_users)
     for username, name in all_names_by_username.items():
         if username not in usernames:
             new_user = {
