@@ -45,7 +45,7 @@ The JSON file is located in `public/leaderboard.json`
 
 cd query_scripts
 
-wget --no-check-certificate --output-document=users.csv '[public link to google sheet for example https://docs.google.com/spreadsheets/d/11_utLlhDXp8BGzKDW954O3l93v9ahFVOXHBavsaemBQ/]export?format=csv'
+wget --no-check-certificate --output-document=users.csv 'https://docs.google.com/spreadsheets/d/11_utLlhDXp8BGzKDW954O3l93v9ahFVOXHBavsaemBQ/export?format=csv'
 
 python3 add_users_to_json.py
 ```
@@ -57,4 +57,5 @@ python3 add_users_to_json.py
 solutions -> Google Form for removing people with script that updates the JSON
 
 ##### Prediction rating should be overwritten after Wednesday for official rating
+
 Add a new key to the JSON for is_predicted_elo
