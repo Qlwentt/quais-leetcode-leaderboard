@@ -80,6 +80,7 @@ def update_json(filename, users):
     for user in users:
         data.append({
             "name": user['name'],
+            "username": user['username'],
             "elo": user['elo'],
             "prev_elo": user.get("prev_elo", 0),
             'prev_problem_count': user.get('prev_problem_count',0),

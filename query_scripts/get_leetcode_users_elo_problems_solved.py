@@ -94,6 +94,7 @@ def update_json(filename, users):
         data.append(
             {
                 "name": user["name"],
+                "username": user["username"],
                 "elo": user["elo"],
                 "prev_elo": user.get("prev_elo", 0),
                 "prev_problem_count": user["prev_problem_count"],
@@ -111,18 +112,9 @@ def read_usernames_from_file(filename):
         return [line.strip() for line in file.readlines()]
 
 
-def write_elos_to_json(filename, user_elos):
-    data = []
-    for user, elo, prev_elo in user_elos:
-        data.append({"name": user, "elo": elo, "prev_elo": prev_elo})
-
-    with open(filename, "w") as file:
-        json.dump(data, file, indent=4)
-
-
 def daily_update(existing_users):
     for user in existing_users:
-        username = user["name"]
+        username = user["username"]
         print("Getting problem count of...", username)
         problems_solved_count = get_problems_solved(username)
         if problems_solved_count:
@@ -142,7 +134,7 @@ def daily_update(existing_users):
 
 def weekly_update(existing_users):
     for user in existing_users:
-        username = user["name"]
+        username = user["username"]
         print("Getting problem count of...", username)
         problems_solved_count = get_problems_solved(username)
         if problems_solved_count:

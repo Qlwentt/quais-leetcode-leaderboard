@@ -2,14 +2,15 @@ import json
 import csv
 
 def read_usernames_from_file(filename):
-    usernames = []
-    column_name = 'What is your leetcode username' 
+    names_by_usernames = {} # key: username, value: name
+    username_row = 'What is your leetcode username'
+    name_row = 'What is your name' 
 
-    with open('users.csv', 'r', newline='') as csvfile:
+    with open(filename, 'r', newline='') as csvfile:
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
-            usernames.append(row[column_name])
-    return usernames
+            names_by_usernames[row[username_row]] = row[name_row]
+    return names_by_usernames
 
     
 
@@ -22,12 +23,14 @@ def update_json(filename, users):
         json.dump(users, file, indent=4)
 
 def add_users_to_json(usernames_file, json_file):
-    all_usernames = read_usernames_from_file(usernames_file)
+
+    all_names_by_username = read_usernames_from_file(usernames_file)
     existing_users = load_existing_users(json_file)
-    for username in all_usernames:
+    for username, name in all_names_by_username.items():
         if username not in existing_users:
             new_user = {
-                "name": username,
+                "name": name,
+                "username": username,
                 "elo": 0,
                 "prev_elo": 0,
                 "prev_problem_count": 0,
@@ -39,7 +42,7 @@ def add_users_to_json(usernames_file, json_file):
     update_json(json_file, existing_users)
 
 if __name__ == "__main__":
-    usernames_file = 'usernames_to_add.txt'
+    usernames_file = 'users.csv'
     json_file = "../leetcode-elo/public/users_by_elo.json"
     add_users_to_json(usernames_file, json_file)
     print("New users added successfully.")
