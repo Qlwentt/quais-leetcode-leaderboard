@@ -103,7 +103,7 @@ function Leaderboard() {
   const currentMonthName = monthNames[currentDate.getMonth()];
 
   return (
-    <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
+    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
       <Grid container spacing={2} alignItems="center">
         <Grid item xs={12} sm={4}>
           <ImageContainer />
@@ -136,17 +136,20 @@ function Leaderboard() {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <Grid container spacing={2} sx={{ fontWeight: "bold" }}>
-        <Grid item xs={3}>
+        <Grid item xs={2}>
           NAME (USERNAME)
         </Grid>
         <Grid item xs={2}>
-          ELO
+          CONTEST RATING
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={2}>
           RATING CHANGE
         </Grid>
         <Grid item xs={3}>
           NEW PROBLEMS SOLVED THIS MONTH
+        </Grid>
+        <Grid item xs={3}>
+          TOTAL PROBLEMS SOLVED
         </Grid>
       </Grid>
       <List sx={{ width: "100%", bgcolor: "background.paper" }}>
@@ -158,35 +161,59 @@ function Leaderboard() {
                 justifyContent="space-between"
                 alignItems="center"
               >
-                <Grid item xs={3}>
-                  <ListItem alignItems="flex-start">
+                <Grid
+                  item
+                  xs={2}
+                  sx={{ display: "flex", justifyContent: "center" }}
+                >
+                  <ListItem
+                    alignItems="center"
+                    sx={{
+                      width: "100%",
+                      display: "flex",
+                      justifyContent: "center", // Centers content within ListItem
+                    }}
+                  >
                     <Typography
                       variant="h6"
                       component="span"
-                      sx={{ fontFamily: "'Roboto', sans-serif" }}
+                      sx={{
+                        fontFamily: "'Roboto', sans-serif",
+                        textAlign: "center",
+                        width: "100%", // Ensures text fills the available width
+                      }}
                     >
                       #{index + 1} {user.name} ({user.username})
                     </Typography>
                   </ListItem>
                 </Grid>
-                <Grid item xs={2}>
+                <Grid
+                  item
+                  xs={2}
+                  sx={{ display: "flex", justifyContent: "center" }}
+                >
                   <Typography
                     variant="subtitle1"
                     component="span"
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "'Roboto', sans-serif",
+                      textAlign: "center",
                     }}
                   >
                     {user.elo}
                   </Typography>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid
+                  item
+                  xs={2}
+                  sx={{ display: "flex", justifyContent: "center" }}
+                >
                   {user.prev_elo !== undefined && (
                     <Box
                       sx={{
                         display: "flex",
-                        justifyContent: "flex-start",
+                        justifyContent: "center",
                         alignItems: "center",
                         bgcolor: "rgba(0,0,0,0.1)",
                         p: 0.5,
@@ -211,16 +238,38 @@ function Leaderboard() {
                     </Box>
                   )}
                 </Grid>
-                <Grid item xs={3}>
+                <Grid
+                  item
+                  xs={3}
+                  sx={{ display: "flex", justifyContent: "center" }}
+                >
                   <Typography
                     variant="subtitle1"
                     component="span"
                     sx={{
                       fontWeight: "bold",
                       fontFamily: "'Roboto', sans-serif",
+                      textAlign: "center",
                     }}
                   >
                     {user.current_problem_delta ?? 0}
+                  </Typography>
+                </Grid>
+                <Grid
+                  item
+                  xs={3}
+                  sx={{ display: "flex", justifyContent: "center" }}
+                >
+                  <Typography
+                    variant="subtitle1"
+                    component="span"
+                    sx={{
+                      fontWeight: "bold",
+                      fontFamily: "'Roboto', sans-serif",
+                      textAlign: "center",
+                    }}
+                  >
+                    {user.current_problem_count ?? 0}
                   </Typography>
                 </Grid>
               </Grid>
