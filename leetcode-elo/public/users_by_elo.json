@@ -10,5 +10,15 @@
             708
         ],
         "current_problem_count": 710
+    },
+    {
+        "name": "Anya",
+        "username": "noomflah",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 0
     }
 ]
