@@ -9,7 +9,7 @@ def read_usernames_from_file(filename):
     with open(filename, 'r', newline='') as csvfile:
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
-            names_by_usernames[row[username_row]] = row[name_row]
+            names_by_usernames[row[username_row].strip()] = row[name_row]
     return names_by_usernames
 
     
