@@ -48,10 +48,14 @@ def get_problems_solved(username):
     response = requests.post(url, headers=headers, cookies=cookies, json=payload)
     if response.status_code == 200:
         data = response.json()
-        total_problems_solved = data["data"]["matchedUser"]["submitStatsGlobal"][
-            "acSubmissionNum"
-        ][0]["count"]
-        return total_problems_solved
+        try:
+            total_problems_solved = data["data"]["matchedUser"]["submitStatsGlobal"][
+                "acSubmissionNum"
+            ][0]["count"]
+            return total_problems_solved
+        except:
+            print("Failed to retrieve data for {}: {}".format(username, response.status_code))
+            return 0
     else:
         print(
             f"Failed to retrieve problem stats for {username}: {response.status_code}"
