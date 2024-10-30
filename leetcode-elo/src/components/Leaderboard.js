@@ -179,7 +179,6 @@ function Leaderboard() {
                       component="span"
                       sx={{
                         fontFamily: "'Roboto', sans-serif",
-                        textAlign: "center",
                         width: "100%", // Ensures text fills the available width
                       }}
                     >
