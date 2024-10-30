@@ -155,7 +155,7 @@ function Leaderboard() {
       <List sx={{ width: "100%", bgcolor: "background.paper" }}>
         {filteredLeaderboard.map((user, index) => (
           <CustomCard key={index}>
-            <CardActionArea onClick={() => handleCardClick(user.name)}>
+            <CardActionArea onClick={() => handleCardClick(user.username)}>
               <Grid
                 container
                 justifyContent="space-between"
