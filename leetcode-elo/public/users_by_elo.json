@@ -130,5 +130,15 @@
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 0
+    },
+    {
+        "name": "Luxi Lindsey",
+        "username": "Lindseyls",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 0
     }
 ]
