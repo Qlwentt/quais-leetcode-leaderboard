@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 3,
+        "current_problem_delta": 7,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 711
+        "current_problem_count": 715
     },
     {
         "name": "Anya",
@@ -49,7 +49,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 35
+        "current_problem_count": 43
     },
     {
         "name": "Sabrina Ly",
@@ -59,7 +59,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 73
+        "current_problem_count": 77
     },
     {
         "name": "M",
@@ -79,7 +79,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 146
+        "current_problem_count": 147
     },
     {
         "name": "Divya",
@@ -89,7 +89,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 45
+        "current_problem_count": 47
     },
     {
         "name": "Soleil herring ",
@@ -119,7 +119,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 14
+        "current_problem_count": 15
     },
     {
         "name": "Mariah Rosman",
@@ -129,7 +129,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 0
+        "current_problem_count": 26
     },
     {
         "name": "Luxi Lindsey",
@@ -139,7 +139,7 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 0
+        "current_problem_count": 202
     },
     {
         "name": "Ambar de Santiago",
@@ -149,6 +149,6 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 0
+        "current_problem_count": 8
     }
 ]
