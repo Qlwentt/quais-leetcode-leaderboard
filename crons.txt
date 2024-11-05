@@ -1,0 +1,5 @@
+36 9 * * * /Users/quai/cron_add_new_users.sh >> /Users/quai/quais-leetcode-leaderboard/logs/cron_noon.log 2>> /Users/quai/quais-leetcode-leaderboard/logs/cron_error.log
+
+0 14 * * * /Users/quai/cron_update_leaderboard_daily.sh >> /Users/quai/quais-leetcode-leaderboard/logs/cron_daily.log 2>&1
+
+0 2 * * 1 /Users/quai/cron_weekly_update.sh >> /Users/quai/quais-leetcode-leaderboard/logs/cron_weekly.log 2>&1
