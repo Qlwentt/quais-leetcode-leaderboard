@@ -123,7 +123,9 @@ function Leaderboard() {
             component="div"
             sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}
           >
-            Solve 30 Problems for month of {currentMonthName}
+            Challenge 1: Solve the most new problems for month of{" "}
+            {currentMonthName} (premium giveaway) <br /> Challenge 2: Solve 30
+            problems in the month of {currentMonthName} (bragging rights)
           </Typography>
         </Grid>
       </Grid>
