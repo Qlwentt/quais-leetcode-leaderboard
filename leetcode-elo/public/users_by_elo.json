@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 7,
+        "current_problem_delta": 9,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 715
+        "current_problem_count": 717
     },
     {
         "name": "Anya",
@@ -65,11 +65,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 9,
+        "current_problem_delta": 10,
         "problems_each_week": [
             73
         ],
-        "current_problem_count": 82
+        "current_problem_count": 83
     },
     {
         "name": "M",
@@ -125,11 +125,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 113,
-        "current_problem_delta": 1,
+        "current_problem_delta": 3,
         "problems_each_week": [
             113
         ],
-        "current_problem_count": 114
+        "current_problem_count": 116
     },
     {
         "name": "Nathan Vazquez",
