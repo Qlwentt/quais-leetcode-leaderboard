@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 9,
+        "current_problem_delta": 10,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 717
+        "current_problem_count": 718
     },
     {
         "name": "Anya",
@@ -17,11 +17,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 149,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             149
         ],
-        "current_problem_count": 151
+        "current_problem_count": 152
     },
     {
         "name": "Pushpita  Saha ",
@@ -41,11 +41,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 18,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             18
         ],
-        "current_problem_count": 18
+        "current_problem_count": 19
     },
     {
         "name": "Larissa Ault",
@@ -65,11 +65,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 10,
+        "current_problem_delta": 12,
         "problems_each_week": [
             73
         ],
-        "current_problem_count": 83
+        "current_problem_count": 85
     },
     {
         "name": "M",
@@ -89,11 +89,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             146
         ],
-        "current_problem_count": 148
+        "current_problem_count": 149
     },
     {
         "name": "Divya",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 319
+        "current_problem_count": 320
     }
 ]
