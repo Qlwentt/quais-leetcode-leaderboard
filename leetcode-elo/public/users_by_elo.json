@@ -17,11 +17,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 149,
-        "current_problem_delta": 3,
+        "current_problem_delta": 4,
         "problems_each_week": [
             149
         ],
-        "current_problem_count": 152
+        "current_problem_count": 153
     },
     {
         "name": "Pushpita  Saha ",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 3,
+        "current_problem_delta": 5,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 48
+        "current_problem_count": 50
     },
     {
         "name": "Soleil herring ",
@@ -125,11 +125,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 113,
-        "current_problem_delta": 3,
+        "current_problem_delta": 5,
         "problems_each_week": [
             113
         ],
-        "current_problem_count": 116
+        "current_problem_count": 118
     },
     {
         "name": "Nathan Vazquez",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 3,
+        "current_problem_delta": 5,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 320
+        "current_problem_count": 322
     }
 ]
