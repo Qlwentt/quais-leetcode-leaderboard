@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 14,
+        "current_problem_delta": 16,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 722
+        "current_problem_count": 724
     },
     {
         "name": "Anya",
@@ -53,11 +53,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 35,
-        "current_problem_delta": 15,
+        "current_problem_delta": 18,
         "problems_each_week": [
             35
         ],
-        "current_problem_count": 50
+        "current_problem_count": 53
     },
     {
         "name": "Sabrina Ly",
@@ -65,11 +65,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 14,
+        "current_problem_delta": 15,
         "problems_each_week": [
             73
         ],
-        "current_problem_count": 87
+        "current_problem_count": 88
     },
     {
         "name": "M",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 7,
+        "current_problem_delta": 8,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 52
+        "current_problem_count": 53
     },
     {
         "name": "Soleil herring ",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 9,
+        "current_problem_delta": 10,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 326
+        "current_problem_count": 327
     }
 ]
