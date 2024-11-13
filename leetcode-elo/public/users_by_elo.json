@@ -17,11 +17,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 149,
-        "current_problem_delta": 7,
+        "current_problem_delta": 8,
         "problems_each_week": [
             149
         ],
-        "current_problem_count": 156
+        "current_problem_count": 157
     },
     {
         "name": "Pushpita  Saha ",
@@ -53,11 +53,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 35,
-        "current_problem_delta": 18,
+        "current_problem_delta": 19,
         "problems_each_week": [
             35
         ],
-        "current_problem_count": 53
+        "current_problem_count": 54
     },
     {
         "name": "Sabrina Ly",
@@ -65,11 +65,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 15,
+        "current_problem_delta": 18,
         "problems_each_week": [
             73
         ],
-        "current_problem_count": 88
+        "current_problem_count": 91
     },
     {
         "name": "M",
