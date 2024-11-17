@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 19,
+        "current_problem_delta": 21,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 727
+        "current_problem_count": 729
     },
     {
         "name": "Anya",
@@ -89,11 +89,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 4,
+        "current_problem_delta": 5,
         "problems_each_week": [
             146
         ],
-        "current_problem_count": 150
+        "current_problem_count": 151
     },
     {
         "name": "Divya",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 10,
+        "current_problem_delta": 12,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 327
+        "current_problem_count": 329
     }
 ]
