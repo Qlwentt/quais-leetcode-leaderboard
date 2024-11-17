@@ -151,7 +151,7 @@ function Leaderboard() {
           NEW PROBLEMS SOLVED THIS MONTH
         </Grid>
         <Grid item xs={3}>
-          TOTAL PROBLEMS SOLVED
+          NEW PROBLEMS SOLVED LAST MONTH
         </Grid>
       </Grid>
       <List sx={{ width: "100%", bgcolor: "background.paper" }}>
@@ -270,7 +270,7 @@ function Leaderboard() {
                       textAlign: "center",
                     }}
                   >
-                    {user.current_problem_count ?? 0}
+                    {user.prev_problems_solved?.at(-1) ?? 0}
                   </Typography>
                 </Grid>
               </Grid>

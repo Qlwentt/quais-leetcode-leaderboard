@@ -143,6 +143,8 @@ def weekly_update(existing_users):
         problems_solved_count = get_problems_solved(username)
         if problems_solved_count:
             print("COUNT WAS", problems_solved_count)
+            prev_delta = user.get("current_problem_delta", 0)
+            user["prev_problems_solved"].append(prev_delta)
             if user.get("problems_each_week", []):
                 user["problems_each_week"].append(user.get("current_problem_count", 0))
             else:
