@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 21,
+        "current_problem_delta": 22,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 729
+        "current_problem_count": 730
     },
     {
         "name": "Anya",
@@ -41,11 +41,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 18,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             18
         ],
-        "current_problem_count": 20
+        "current_problem_count": 21
     },
     {
         "name": "Larissa Ault",
@@ -89,11 +89,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 5,
+        "current_problem_delta": 6,
         "problems_each_week": [
             146
         ],
-        "current_problem_count": 151
+        "current_problem_count": 152
     },
     {
         "name": "Divya",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 10,
+        "current_problem_delta": 12,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 55
+        "current_problem_count": 57
     },
     {
         "name": "Soleil herring ",
@@ -149,11 +149,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 26,
-        "current_problem_delta": 3,
+        "current_problem_delta": 7,
         "problems_each_week": [
             26
         ],
-        "current_problem_count": 29
+        "current_problem_count": 33
     },
     {
         "name": "Luxi Lindsey",
