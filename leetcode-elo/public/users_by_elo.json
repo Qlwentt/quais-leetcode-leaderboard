@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 22,
+        "current_problem_delta": 23,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 730
+        "current_problem_count": 731
     },
     {
         "name": "Anya",
@@ -41,11 +41,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 18,
-        "current_problem_delta": 3,
+        "current_problem_delta": 5,
         "problems_each_week": [
             18
         ],
-        "current_problem_count": 21
+        "current_problem_count": 23
     },
     {
         "name": "Larissa Ault",
@@ -53,11 +53,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 35,
-        "current_problem_delta": 22,
+        "current_problem_delta": 23,
         "problems_each_week": [
             35
         ],
-        "current_problem_count": 57
+        "current_problem_count": 58
     },
     {
         "name": "Sabrina Ly",
@@ -65,11 +65,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 21,
+        "current_problem_delta": 22,
         "problems_each_week": [
             73
         ],
-        "current_problem_count": 94
+        "current_problem_count": 95
     },
     {
         "name": "M",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 12,
+        "current_problem_delta": 15,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 57
+        "current_problem_count": 60
     },
     {
         "name": "Soleil herring ",
@@ -149,11 +149,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 26,
-        "current_problem_delta": 7,
+        "current_problem_delta": 9,
         "problems_each_week": [
             26
         ],
-        "current_problem_count": 33
+        "current_problem_count": 35
     },
     {
         "name": "Luxi Lindsey",
