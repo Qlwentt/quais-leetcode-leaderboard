@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 24,
+        "current_problem_delta": 26,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 732
+        "current_problem_count": 734
     },
     {
         "name": "Anya",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 16,
+        "current_problem_delta": 17,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 61
+        "current_problem_count": 62
     },
     {
         "name": "Soleil herring ",
