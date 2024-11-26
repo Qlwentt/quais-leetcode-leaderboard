@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 27,
+        "current_problem_delta": 28,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 735
+        "current_problem_count": 736
     },
     {
         "name": "Anya",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 18,
+        "current_problem_delta": 27,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 335
+        "current_problem_count": 344
     }
 ]
