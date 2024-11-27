@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 28,
+        "current_problem_delta": 29,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 736
+        "current_problem_count": 737
     },
     {
         "name": "Anya",
@@ -17,11 +17,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 149,
-        "current_problem_delta": 9,
+        "current_problem_delta": 10,
         "problems_each_week": [
             149
         ],
-        "current_problem_count": 158
+        "current_problem_count": 159
     },
     {
         "name": "Pushpita  Saha ",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 20,
+        "current_problem_delta": 21,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 65
+        "current_problem_count": 66
     },
     {
         "name": "Soleil herring ",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 27,
+        "current_problem_delta": 32,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 344
+        "current_problem_count": 349
     }
 ]
