@@ -10,7 +10,10 @@
             708,
             741
         ],
-        "current_problem_count": 741
+        "current_problem_count": 741,
+        "prev_problems_solved": [
+            33
+        ]
     },
     {
         "name": "Anya",
@@ -23,7 +26,10 @@
             149,
             159
         ],
-        "current_problem_count": 159
+        "current_problem_count": 159,
+        "prev_problems_solved": [
+            10
+        ]
     },
     {
         "name": "Pushpita  Saha ",
@@ -36,7 +42,10 @@
             30,
             38
         ],
-        "current_problem_count": 38
+        "current_problem_count": 38,
+        "prev_problems_solved": [
+            8
+        ]
     },
     {
         "name": "Andii Zhu",
@@ -49,7 +58,10 @@
             18,
             24
         ],
-        "current_problem_count": 24
+        "current_problem_count": 24,
+        "prev_problems_solved": [
+            6
+        ]
     },
     {
         "name": "Larissa Ault",
@@ -62,7 +74,10 @@
             35,
             58
         ],
-        "current_problem_count": 58
+        "current_problem_count": 58,
+        "prev_problems_solved": [
+            23
+        ]
     },
     {
         "name": "Sabrina Ly",
@@ -75,7 +90,10 @@
             73,
             95
         ],
-        "current_problem_count": 95
+        "current_problem_count": 95,
+        "prev_problems_solved": [
+            22
+        ]
     },
     {
         "name": "M",
@@ -88,7 +106,10 @@
             22,
             22
         ],
-        "current_problem_count": 22
+        "current_problem_count": 22,
+        "prev_problems_solved": [
+            0
+        ]
     },
     {
         "name": "Michaela",
@@ -101,7 +122,10 @@
             146,
             152
         ],
-        "current_problem_count": 152
+        "current_problem_count": 152,
+        "prev_problems_solved": [
+            6
+        ]
     },
     {
         "name": "Divya",
@@ -114,7 +138,10 @@
             45,
             73
         ],
-        "current_problem_count": 73
+        "current_problem_count": 73,
+        "prev_problems_solved": [
+            28
+        ]
     },
     {
         "name": "Soleil herring ",
@@ -127,7 +154,10 @@
             61,
             62
         ],
-        "current_problem_count": 62
+        "current_problem_count": 62,
+        "prev_problems_solved": [
+            1
+        ]
     },
     {
         "name": "Pushpa",
@@ -140,7 +170,10 @@
             113,
             119
         ],
-        "current_problem_count": 119
+        "current_problem_count": 119,
+        "prev_problems_solved": [
+            6
+        ]
     },
     {
         "name": "Nathan Vazquez",
@@ -153,7 +186,10 @@
             14,
             15
         ],
-        "current_problem_count": 15
+        "current_problem_count": 15,
+        "prev_problems_solved": [
+            1
+        ]
     },
     {
         "name": "Mariah Rosman",
@@ -166,7 +202,10 @@
             26,
             35
         ],
-        "current_problem_count": 35
+        "current_problem_count": 35,
+        "prev_problems_solved": [
+            9
+        ]
     },
     {
         "name": "Luxi Lindsey",
@@ -179,7 +218,10 @@
             202,
             203
         ],
-        "current_problem_count": 203
+        "current_problem_count": 203,
+        "prev_problems_solved": [
+            1
+        ]
     },
     {
         "name": "Ambar de Santiago",
@@ -191,7 +233,10 @@
         "problems_each_week": [
             8
         ],
-        "current_problem_count": 8
+        "current_problem_count": 8,
+        "prev_problems_solved": [
+            0
+        ]
     },
     {
         "name": "Sejal Jain",
@@ -204,6 +249,9 @@
             317,
             369
         ],
-        "current_problem_count": 369
+        "current_problem_count": 369,
+        "prev_problems_solved": [
+            52
+        ]
     }
 ]
