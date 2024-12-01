@@ -105,6 +105,7 @@ def update_json(filename, users):
                 "current_problem_delta": user["current_problem_delta"],
                 "problems_each_week": user.get("problems_each_week", []),
                 "current_problem_count": user["current_problem_count"],
+                "prev_problems_solved": user.get("prev_problems_solved", []),
             }
         )
     with open(filename, "w") as file:
@@ -159,6 +160,7 @@ def weekly_update(existing_users):
             user["current_problem_delta"] = problems_solved_count - user.get(
                 "prev_problem_count", problems_solved_count
             )
+            print(user)
             print("Problems solved by user...", problems_solved_count)
     update_json("../leetcode-elo/public/users_by_elo.json", existing_users)
 
