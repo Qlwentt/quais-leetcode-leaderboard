@@ -160,7 +160,6 @@ def weekly_update(existing_users):
             user["current_problem_delta"] = problems_solved_count - user.get(
                 "prev_problem_count", problems_solved_count
             )
-            print(user)
             print("Problems solved by user...", problems_solved_count)
     update_json("../leetcode-elo/public/users_by_elo.json", existing_users)
 
