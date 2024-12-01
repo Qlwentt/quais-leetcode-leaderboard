@@ -124,8 +124,9 @@ function Leaderboard() {
             sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}
           >
             Challenge 1: Solve the most new problems for month of{" "}
-            {currentMonthName} (premium giveaway) <br /> Challenge 2: Solve 30
-            problems in the month of {currentMonthName} (bragging rights)
+            {currentMonthName} <br /> Challenge 2: Solve more problems in the
+            month of {`${currentMonthName}`} than you did in the month of{" "}
+            {`${monthNames[currentDate.getMonth() - 1]}`}
           </Typography>
         </Grid>
       </Grid>
