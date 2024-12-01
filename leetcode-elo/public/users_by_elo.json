@@ -5,11 +5,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 708,
-        "current_problem_delta": 30,
+        "current_problem_delta": 33,
         "problems_each_week": [
             708
         ],
-        "current_problem_count": 738
+        "current_problem_count": 741
     },
     {
         "name": "Anya",
@@ -101,11 +101,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 21,
+        "current_problem_delta": 28,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 66
+        "current_problem_count": 73
     },
     {
         "name": "Soleil herring ",
@@ -183,10 +183,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 317,
-        "current_problem_delta": 36,
+        "current_problem_delta": 52,
         "problems_each_week": [
             317
         ],
-        "current_problem_count": 353
+        "current_problem_count": 369
     }
 ]
