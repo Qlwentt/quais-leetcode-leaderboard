@@ -5,12 +5,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 741,
-        "current_problem_delta": 36,
+        "current_problem_delta": 37,
         "problems_each_week": [
             708,
             741
         ],
-        "current_problem_count": 777,
+        "current_problem_count": 778,
         "prev_problems_solved": [
             33
         ]
@@ -117,12 +117,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 152,
-        "current_problem_delta": 11,
+        "current_problem_delta": 12,
         "problems_each_week": [
             146,
             152
         ],
-        "current_problem_count": 163,
+        "current_problem_count": 164,
         "prev_problems_solved": [
             6
         ]
@@ -133,12 +133,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 73,
-        "current_problem_delta": 18,
+        "current_problem_delta": 19,
         "problems_each_week": [
             45,
             73
         ],
-        "current_problem_count": 91,
+        "current_problem_count": 92,
         "prev_problems_solved": [
             28
         ]
