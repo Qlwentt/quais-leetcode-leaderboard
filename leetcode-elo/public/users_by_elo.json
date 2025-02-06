@@ -117,12 +117,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 152,
-        "current_problem_delta": 15,
+        "current_problem_delta": 16,
         "problems_each_week": [
             146,
             152
         ],
-        "current_problem_count": 167,
+        "current_problem_count": 168,
         "prev_problems_solved": [
             6
         ]
@@ -165,12 +165,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 119,
-        "current_problem_delta": 16,
+        "current_problem_delta": 17,
         "problems_each_week": [
             113,
             119
         ],
-        "current_problem_count": 135,
+        "current_problem_count": 136,
         "prev_problems_solved": [
             6
         ]
