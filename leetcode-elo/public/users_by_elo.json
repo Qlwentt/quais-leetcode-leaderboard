@@ -213,12 +213,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 203,
-        "current_problem_delta": 27,
+        "current_problem_delta": 28,
         "problems_each_week": [
             202,
             203
         ],
-        "current_problem_count": 230,
+        "current_problem_count": 231,
         "prev_problems_solved": [
             1
         ]
