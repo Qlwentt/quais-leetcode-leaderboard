@@ -244,12 +244,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 369,
-        "current_problem_delta": 14,
+        "current_problem_delta": 18,
         "problems_each_week": [
             317,
             369
         ],
-        "current_problem_count": 383,
+        "current_problem_count": 387,
         "prev_problems_solved": [
             52
         ]
